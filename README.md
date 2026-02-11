@@ -12,6 +12,6 @@ EDA Folder\
 &emsp;Distribution_of_Headline_Lengths.png\
 &emsp;Distribution_of_Subjects.png
 ### Scripts Folder
-&emsp;EDA
+&emsp;EDA.ipynb
 ## Reproducibility
 TBD
