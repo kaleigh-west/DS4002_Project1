@@ -19,7 +19,7 @@ EDA Folder\
 &emsp;Fake_Text_Length_Distribution.png\
 &emsp;Real_Articles_by_Month.png\
 &emsp;Real_Headline_Length_Distribution.png\
-&emsp;Real_Text_Length_Distribution.png\
+&emsp;Real_Text_Length_Distribution.png
 ### Scripts Folder
 &emsp;EDA.ipynb
 ## Reproducibility
