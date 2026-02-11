@@ -5,12 +5,13 @@ Softwares: Python, Jupyter notebook, VScode\
 Add-on packages: TBD\
 Platform: Mac
 ## Documentation
-### Data
-### Output
-EDA\
+### Data Folder
+&emsp;README.md with instructions on how to download dataset
+### Output Folder
+EDA Folder\
 &emsp;Distribution_of_Headline_Lengths.png\
 &emsp;Distribution_of_Subjects.png
-### Scripts
+### Scripts Folder
 &emsp;EDA
 ## Reproducibility
 TBD
