@@ -5,6 +5,12 @@ Softwares: Python, Jupyter notebook, VScode\
 Add-on packages: TBD\
 Platform: Mac
 ## Documentation
-Folder structure/TBD
+### Data
+### Output
+EDA\
+&emsp;Distribution_of_Headline_Lengths.png
+&emsp;Distribution_of_Subjects.png
+### Scripts
+&emsp;EDA
 ## Reproducibility
 TBD
