@@ -7,7 +7,7 @@ Platform: Mac
 ## Documentation
 ### Data Folder
 &emsp;Data appendix.pdf\
-&emsp;README.md with instructions on how to download raw dataset
+&emsp;README.md with instructions on how to download raw dataset\
 &emsp;headlines_clean.csv
 ### Output Folder
 Data Appendix Folder\
