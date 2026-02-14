@@ -2,7 +2,7 @@
 ## This repository contains the dataset, EDA, and logistic regression model used to classify our real versus fake news dataset. 
 ## Software and Platform
 Softwares: Python, Jupyter notebook, VScode\
-Add-on packages: TBD\
+Add-on packages: Pandas, Matplotlib, Scikit-learn\
 Platform: Mac
 ## Documentation
 ### Data Folder
