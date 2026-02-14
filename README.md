@@ -6,8 +6,14 @@ Add-on packages: TBD\
 Platform: Mac
 ## Documentation
 ### Data Folder
-&emsp;README.md with instructions on how to download dataset
+&emsp;Data appendix.pdf\
+&emsp;README.md with instructions on how to download raw dataset
+&emsp;headlines_clean.csv
 ### Output Folder
+Data Appendix Folder\
+&emsp;headline_labels.png
+&emsp;headline_length_boxplot.png
+&emsp;headline_length_dist.png
 EDA Folder\
 &emsp;Distribution_of_Headline_Lengths.png\
 &emsp;Distribution_of_Subjects.png\
@@ -20,7 +26,11 @@ EDA Folder\
 &emsp;Real_Articles_by_Month.png\
 &emsp;Real_Headline_Length_Distribution.png\
 &emsp;Real_Text_Length_Distribution.png
+Model Folder\
+&emsp;confusion_matrix.png
 ### Scripts Folder
-&emsp;EDA.ipynb
+&emsp;EDA.py\
+&emsp;dataappendix.py\
+&emsp;logistic_regression.py
 ## Reproducibility
 TBD
