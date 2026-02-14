@@ -13,7 +13,7 @@ Platform: Mac
 Data Appendix Folder\
 &emsp;headline_labels.png\
 &emsp;headline_length_boxplot.png\
-&emsp;headline_length_dist.png\
+&emsp;headline_length_dist.png\\
 EDA Folder\
 &emsp;Distribution_of_Headline_Lengths.png\
 &emsp;Distribution_of_Subjects.png\
@@ -25,7 +25,7 @@ EDA Folder\
 &emsp;Fake_Text_Length_Distribution.png\
 &emsp;Real_Articles_by_Month.png\
 &emsp;Real_Headline_Length_Distribution.png\
-&emsp;Real_Text_Length_Distribution.png\
+&emsp;Real_Text_Length_Distribution.png\\
 Model Folder\
 &emsp;confusion_matrix.png
 ### Scripts Folder
