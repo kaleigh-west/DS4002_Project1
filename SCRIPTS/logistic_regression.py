@@ -1,30 +1,33 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# DS4002 Project 1 – Fake News Classification Model
-# 
-# This script trains and evaluates a machine learning model that classifies
-# news headlines as real (0) or fake (1).
-# 
-# Input file:
-# DATA/headlines_clean.csv
-# 
-# Columns:
-# title  -> headline text used as predictor
-# label  -> 0 = real news, 1 = fake news
-# 
-# Method:
-# TF-IDF converts text into numerical features
-# Logistic Regression performs classification
-# 
-# Output:
-# Accuracy, Precision, Recall, F1 Score
-# Classification report
-# Confusion matrix
-# 
-# Running this script reproduces the model results reported in the project.
+# In[19]:
 
-# In[13]:
+
+#DS4002 Project 1 – Fake News Classification Model
+
+#This script trains and evaluates a machine learning model that classifies news headlines as real (0) or fake (1).
+
+#Input file:
+#DATA/headlines_clean.csv
+
+#Columns:
+#title  -> headline text used as predictor
+#label  -> 0 = real news, 1 = fake news
+
+#Method:
+#TF-IDF converts text into numerical features
+#Logistic Regression performs classification
+
+#Output:
+#Accuracy, Precision, Recall, F1 Score
+#Classification report
+#Confusion matrix
+
+#Running this script reproduces the model results reported in the project.
+
+
+# In[20]:
 
 
 # import libraries used for data handling and machine learning
@@ -39,7 +42,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from sklearn.metrics import classification_report, confusion_matrix
 
 
-# In[14]:
+# In[21]:
 
 
 # load Kaggle datasets and assign classification labels
@@ -66,7 +69,7 @@ print(df["label"].value_counts())
 df.head()
 
 
-# In[15]:
+# In[22]:
 
 
 # save cleaned dataset used for modeling
@@ -77,7 +80,7 @@ clean = pd.read_csv("headlines_clean.csv")
 clean.columns, clean["label"].value_counts()
 
 
-# In[16]:
+# In[23]:
 
 
 # split data into training and testing sets with balanced labels
@@ -101,7 +104,7 @@ model = Pipeline([
 model.fit(X_train, y_train);
 
 
-# In[17]:
+# In[24]:
 
 
 # generate predictions and compute evaluation metrics
@@ -123,7 +126,7 @@ print("\nClassification report:\n")
 print(classification_report(y_test, y_pred, target_names=["Real", "Fake"]))
 
 
-# In[18]:
+# In[25]:
 
 
 # create confusion matrix to show prediction outcomes
