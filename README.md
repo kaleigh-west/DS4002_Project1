@@ -4,7 +4,9 @@
 This project was developed and tested using the following  environment:
 
 Operating System: macOS
+
 Programming Language: Python
+
 Developed Environment: Jupyter Notebook, Visual Studio Code
 
 Required Python Packages:
