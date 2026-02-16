@@ -1,9 +1,19 @@
 # DS4002_Project1
 ## This repository contains the dataset, EDA, and logistic regression model used to classify our real versus fake news dataset. 
 ## Software and Platform
-Softwares: Python, Jupyter notebook, VScode\
-Add-on packages: Pandas, Matplotlib, Scikit-learn\
-Platform: Mac
+This project was developed and tested using the following  environment:
+
+Operating System: macOS
+Programming Language: Python
+Developed Environment: Jupyter Notebook, Visual Studio Code
+
+Required Python Packages:
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- seaborn
+- jupyter
 ## Documentation
 ### Data Folder
 &emsp;Data appendix.pdf\
